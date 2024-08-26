@@ -1,6 +1,6 @@
 # Vamshi Konapuram
 
-· +1 6673356753 · va.konapuram@gmail.com  
++1 6673356753 · va.konapuram@gmail.com  
 5330J Jamestowne Ct, Baltimore, MD 21229
 
 
