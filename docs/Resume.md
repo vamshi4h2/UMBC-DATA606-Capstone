@@ -32,11 +32,11 @@ Relevant Courses: C Programming, Object-Oriented Programming, Computer Networks,
 - Led the analysis of over 50,000 crime incidents in Baltimore City spanning 2017 to 2022, leveraging Python and Pandas to generate insightful visualizations with Matplotlib and Seaborn.
 - Identified the top 5 neighborhoods with up to 30% increase or decrease in crime rates, offering actionable insights to stakeholders for informed decision-making and resource allocation.
 
-### **[ROI-based Change Detection of Time Series NDVI Image](https://github.com/vamshi4h2/ImageClassification1)**   
+### **[ROI-based Change Detection of Time Series NDVI Image](https://github.com/vamshi4h2)**   
 - Designed software to process multispectral images to rank regions representing weak and strong areas, enabling farmers to accurately identify crop growth in different parts. 
 - Published in *Annals of RSCB*, vol. 25, no. 6, pp. 17744-17752, Jul. 2021.
 
-### **[Animal Species Image Classification](link-to-your-project)** 
+### **[Animal Species Image Classification](https://github.com/vamshi4h2/ImageClassification1)** 
 - Developed a project that classifies different images of animals and labels them with their names using a pre-trained network (VGG16) and deep learning techniques such as the Adam optimizer and the ReLU function. 
 - Compared it with traditional models (without pre-trained architecture) and achieved better accuracy.
 
