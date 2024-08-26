@@ -1,8 +1,8 @@
 # Vamshi Konapuram
 
-*+1 6673356753*
-*va.konapuram@gmail.com*  
-5330J Jamestowne Ct, Baltimore, MD 21229  
+· +1 6673356753 · va.konapuram@gmail.com  
+5330J Jamestowne Ct, Baltimore, MD 21229
+
 
 Motivated and dedicated graduate student pursuing a Master’s degree in Data Science at UMBC, seeking a Grader opportunity to leverage academic knowledge and 1.5+ years of professional experience gained at Cognizant, to contribute effectively to students and professors.
 
