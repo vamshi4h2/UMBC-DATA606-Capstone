@@ -23,15 +23,15 @@ Timely delivery is a critical factor for customer satisfaction in the e-commerce
 ## 3. DATA
 Description : 
 
-1. Data Source : *[Kaggle](https://www.kaggle.com/datasets/pankajbhosale/e-commmerce?select=E_Commerce.csv)*. :link:
+1. Data Source : *[Chicago Data Portal](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes/85ca-t3if/data)*. :link:
 
-2. Data Size : 440 KB
+2. Data Size : 472 MB
 
 3. Data Shape
-   > - Number of columns =  12
-   > - Number of rows    = 10,999
+   > - Number of columns =  47
+   > - Number of rows    = 872078
 
-4. What does dataset represent - This dataset includes customer information, shipment details, and delivery outcomes.
+4. What does dataset represent - The Traffic Crashes dataset from the City of Chicago includes detailed records of traffic incidents, capturing crash location, date, and time, along with conditions like weather, road surface, and traffic control. It also provides data on crash types, contributing factors, damage, and injuries, enabling analysis of traffic safety and patterns.
 
 5. Data Dictionary
    
