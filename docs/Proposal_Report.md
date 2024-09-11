@@ -1,5 +1,6 @@
 
-## 1. Project Title - E-Commerce Product Delivery Prediction
+## 1. Project Title - Chicago Traffic Crash Analysis and Modeling
+
 - Prepared for UMBC Data Science Master Degree Capstone by Dr Chaoji (Jay) Wang - Fall 2024 Semester
 - Author: Vamshi Konapuram
 - GitHub : https://github.com/vamshi4h2
