@@ -9,15 +9,16 @@
 
 ## 2. Background
 ### What is it about? 
-This project aims to predict whether a product from an international e-commerce company will be delivered on time or not. It also analyzes various factors that impact delivery times and studies customer behavior patterns. By using machine learning techniques, this project seeks to identify key factors influencing timely deliveries and customer satisfaction.
-
+This project aims to analyze traffic crashes in Chicago to better understand the factors influencing accident rates, severity, and patterns. By examining temporal, spatial, environmental, and human factors, the project seeks to identify trends and correlations that can help improve traffic safety. The analysis will also explore demographic patterns, the relationship between traffic volume, speed limits, and accident hotspots.
 ### Why does it matter? 
-Timely delivery is a critical factor for customer satisfaction in the e-commerce industry. Late deliveries can result in negative customer experiences, loss of sales, and damage to the company’s reputation. By predicting the likelihood of late deliveries, the company can proactively address logistics challenges, optimize operations, and improve customer satisfaction. Additionally, understanding customer behavior and the factors affecting delivery efficiency can provide valuable insights for decision-making.
+Traffic accidents are a major public health and safety issue, especially in large urban areas like Chicago. Understanding the dynamics of traffic crashes is crucial for reducing fatalities and injuries, improving road safety, and optimizing urban planning. Insights from this project can inform evidence-based policies, improve law enforcement strategies, and enhance the design of transportation infrastructure. The goal is to reduce accident rates and advance sustainable transportation options for the city and other similar urban centers.
 
 ### Research Questions:
-1. What are the primary factors influencing whether a product reaches its destination on time?
-2. Can machine learning models effectively predict product delivery outcomes based on customer and shipment data?
-3. How can the company optimize its logistics processes to minimize delays?
+1. What are the temporal patterns (yearly, monthly, and daily) of traffic crashes in Chicago?
+2. How do environmental factors (weather, lighting, road conditions) contribute to traffic accidents?
+3. What are the demographic correlations in traffic crashes, and how do human factors (e.g., driver behavior, alcohol involvement) influence accident severity?
+4. Can spatial analysis identify accident hotspots, and how do traffic volume and speed limits relate to crash rates?
+5. How can the findings support the creation of effective traffic safety programs and policy initiatives?
 
 
 
