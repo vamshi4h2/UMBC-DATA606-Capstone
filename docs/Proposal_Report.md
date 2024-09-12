@@ -33,9 +33,10 @@ Description :
    > - Number of columns =  47
    > - Number of rows    = 872078
 
-4. What does dataset represent - The Traffic Crashes dataset from the City of Chicago includes detailed records of traffic incidents, capturing crash location, date, and time, along with conditions like weather, road surface, and traffic control. It also provides data on crash types, contributing factors, damage, and injuries, enabling analysis of traffic safety and patterns.
+4. Time period (2014 - 2024)
+5. What does dataset represent - The Traffic Crashes dataset from the City of Chicago includes detailed records of traffic incidents, capturing crash location, date, and time, along with conditions like weather, road surface, and traffic control. It also provides data on crash types, contributing factors, damage, and injuries, enabling analysis of traffic safety and patterns.
 
-5. Data Dictionary
+6. Data Dictionary
    
 ### Data Dictionary
 
