@@ -30,9 +30,11 @@ Description :
    > - Number of columns =  12
    > - Number of rows    = 10,999
 
-4. What does dataset represent - This dataset includes customer information, shipment details, and delivery outcomes.
+4. Time period (2014 - 2024)
 
-5. Data Dictionary
+5.What does dataset represent - This dataset includes customer information, shipment details, and delivery outcomes.
+
+6. Data Dictionary
    
 | **Variable**           | **Description**                                                              |
 |------------------------|-------------------------------------------------------------------------------|
