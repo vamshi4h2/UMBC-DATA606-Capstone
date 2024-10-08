@@ -139,6 +139,6 @@ The dataset was further standardized by converting date columns to a datetime fo
 
 Next, feature engineering was performed by rounding the posted speed limit to the nearest five and creating new binary features such as `has_injuries` and `has_fatal` to indicate whether a crash involved injuries or fatalities. We also categorized the time of day into periods (overnight, morning, mid-day, evening) based on the hour of the crash. Following final cleaning steps to handle any remaining inconsistencies, the data was saved to CSV files, ready for further analysis. This cleansing process improved data quality, ensured consistency, and created meaningful features that enhanced the dataset’s analytical value.
 
-![Yearly Crash Counts](./images/crash_data.png)
+![Yearly Crash Counts](./Yearly_MonthlyCrashRate.png)
 ![Monthly Crash Counts](./images/crash_data.png)
 ![Crash Counts by Day](./images/crash_data.png)
