@@ -129,3 +129,16 @@ The following columns are selected as features (predictors) to train the ML mode
 - **`prim_contributory_cause`**: The primary cause contributing to the crash (e.g., speeding, failure to yield).
 - **`sec_contributory_cause`**: The secondary cause contributing to the crash.
 - **`num_units`**: The number of units (vehicles or persons) involved in the crash.
+
+## 4. Exploratory Data Analysis(EDA)
+### Data Cleansing and Preparation
+
+Data cleansing and preparation is a vital step in transforming raw data into a format suitable for analysis. In this project, we worked with traffic crash data from the Chicago Data Portal, starting by loading and inspecting the raw dataset to identify missing values and assess its structure. We renamed several columns to create more concise and meaningful labels and dropped irrelevant fields like `LOCATION` and `LANE_CNT` to reduce noise. To handle missing values, we filled certain columns, such as `intersection_related_i` and `hit_and_run_i`, with default values of "N" for non-occurrence. Where crash type was categorized as "NO INJURY / DRIVE AWAY," missing injury-related columns were filled with zeros, and rows with critical missing data were removed.
+
+The dataset was further standardized by converting date columns to a datetime format and extracting the crash year. Address fields were combined to create a single address column, ensuring consistency across location data. We also removed rows with invalid coordinates (latitude and longitude values of zero) to maintain the integrity of location-based analysis. Duplicate rows were retained, as they may represent repeated crash reports with the same characteristics.
+
+Next, feature engineering was performed by rounding the posted speed limit to the nearest five and creating new binary features such as `has_injuries` and `has_fatal` to indicate whether a crash involved injuries or fatalities. We also categorized the time of day into periods (overnight, morning, mid-day, evening) based on the hour of the crash. Following final cleaning steps to handle any remaining inconsistencies, the data was saved to CSV files, ready for further analysis. This cleansing process improved data quality, ensured consistency, and created meaningful features that enhanced the dataset’s analytical value.
+
+![Yearly Crash Counts](./images/crash_data.png)
+![Monthly Crash Counts](./images/crash_data.png)
+![Crash Counts by Day](./images/crash_data.png)
