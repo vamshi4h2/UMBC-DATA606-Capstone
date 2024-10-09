@@ -8,12 +8,12 @@
 
 
 ## 2. Background
-### What is it about? 
+### 2.1 What is it about? 
 This project aims to analyze traffic crashes in Chicago to better understand the factors influencing accident rates, severity, and patterns. By examining temporal, spatial, environmental, and human factors, the project seeks to identify trends and correlations that can help improve traffic safety. The analysis will also explore demographic patterns, the relationship between traffic volume, speed limits, and accident hotspots.
-### Why does it matter? 
+### 2.2 Why does it matter? 
 Traffic accidents are a major public health and safety issue, especially in large urban areas like Chicago. Understanding the dynamics of traffic crashes is crucial for reducing fatalities and injuries, improving road safety, and optimizing urban planning. Insights from this project can inform evidence-based policies, improve law enforcement strategies, and enhance the design of transportation infrastructure. The goal is to reduce accident rates and advance sustainable transportation options for the city and other similar urban centers.
 
-### Research Questions:
+### 2.3 Research Questions:
 1. What are the temporal patterns (yearly, monthly, and daily) of traffic crashes in Chicago?
 2. How do environmental factors (weather, lighting, road conditions) contribute to traffic accidents?
 3. What are the demographic correlations in traffic crashes, and how do human factors (e.g., driver behavior, alcohol involvement) influence accident severity?
@@ -38,7 +38,7 @@ Description :
 
 6. Data Dictionary
    
-### Data Dictionary
+### 3.1 Data Dictionary
 
 | **Column Name**                        | **Definition**                                                                    |
 |----------------------------------------|------------------------------------------------------------------------------------|
@@ -91,7 +91,7 @@ Description :
 | `LONGITUDE`                            | Longitude coordinate of the crash location.                                        |
 | `LOCATION`                             | Combined latitude and longitude in a human-readable format.                        |
 
-### Target Variables
+### 3.2 Target Variables
 
 - **`has_injuries`**: Indicates whether the crash resulted in any injuries (1 = Yes, 0 = No).
 - **`has_fatal`**: Indicates whether the crash resulted in any fatalities (1 = Yes, 0 = No).
@@ -100,7 +100,7 @@ Description :
 - **`injuries_total`**: Total number of injuries sustained as a result of the crash.
 - **`injuries_fatal`**: Total number of fatal injuries sustained as a result of the crash.
 
-### Selected Features/Predictors for the ML Models
+### 3.3 Selected Features/Predictors for the ML Models
 
 The following columns are selected as features (predictors) to train the ML models:
 - **`crash_date`**: The date when the crash occurred.
@@ -131,7 +131,7 @@ The following columns are selected as features (predictors) to train the ML mode
 - **`num_units`**: The number of units (vehicles or persons) involved in the crash.
 
 ## 4. Exploratory Data Analysis(EDA)
-### Data Cleansing and Preparation
+### 4.1 Data Cleansing and Preparation
 
 Data cleansing and preparation is a vital step in transforming raw data into a format suitable for analysis. In this project, we worked with traffic crash data from the Chicago Data Portal, starting by loading and inspecting the raw dataset to identify missing values and assess its structure. We renamed several columns to create more concise and meaningful labels and dropped irrelevant fields like `LOCATION` and `LANE_CNT` to reduce noise. To handle missing values, we filled certain columns, such as `intersection_related_i` and `hit_and_run_i`, with default values of "N" for non-occurrence. Where crash type was categorized as "NO INJURY / DRIVE AWAY," missing injury-related columns were filled with zeros, and rows with critical missing data were removed.
 
@@ -139,7 +139,7 @@ The dataset was further standardized by converting date columns to a datetime fo
 
 Next, feature engineering was performed by rounding the posted speed limit to the nearest five and creating new binary features such as `has_injuries` and `has_fatal` to indicate whether a crash involved injuries or fatalities. We also categorized the time of day into periods (overnight, morning, mid-day, evening) based on the hour of the crash. Following final cleaning steps to handle any remaining inconsistencies, the data was saved to CSV files, ready for further analysis. This cleansing process improved data quality, ensured consistency, and created meaningful features that enhanced the dataset’s analytical value.
 
-### Data Visualization
+### 4.2 Data Visualization
 
 #### Temporal Trends
 *Is there a significant difference in the number of crashes across different years or months?*
