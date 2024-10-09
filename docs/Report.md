@@ -149,6 +149,8 @@ Next, feature engineering was performed by rounding the posted speed limit to th
 
 **Monthly Crash Counts**
 
-
 ![Monthly Crash Counts](./DayCrashRate.png)
+
+**Crash Counts by Time of Day**
+
 ![Crash Counts by Day](./DaySplit.png)
