@@ -156,7 +156,7 @@ Next, feature engineering was performed by rounding the posted speed limit to th
 ![Crash Counts by Time](./CrashbyTime.png)
 
 
-### Geographical Analysis:
+#### Geographical Analysis:
 *Are there specific locations (addresses, beats, or areas) where crashes are more prevalent?*
 
 ![Crash Counts by Location](./CrashbyLoc.png)
