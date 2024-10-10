@@ -163,7 +163,7 @@ Next, feature engineering was performed by rounding the posted speed limit to th
 
 #### Directional Analysis
 
-![Crash Counts by Street Direction](./CrashByStreet)
+![Crash Counts by Street Direction](./CrashByStreet.png)
 
 
 ## Conclusion:
