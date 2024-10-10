@@ -161,6 +161,11 @@ Next, feature engineering was performed by rounding the posted speed limit to th
 
 ![Crash Counts by Location](./CrashbyLoc.png)
 
+#### Directional Analysis
+
+![Crash Counts by Street Direction](./CrashByStreet)
+
+
 ## Conclusion:
 
 The exploratory data analysis (EDA) of the Chicago crash dataset provided valuable insights into crash patterns across various dimensions, such as time of day, weather, lighting conditions, and geographic location. Key findings reveal a distinct variation in crashes across different years and months, with crashes peaking during certain hours of the day, particularly in the morning and evening. Weekdays generally experienced a higher frequency of crashes compared to weekends, likely due to increased traffic volume. Weather and lighting conditions also played a role, with clear weather contributing to a higher number of crashes. Additionally, the geographical analysis highlighted crash density in specific areas, suggesting the need for targeted traffic interventions. Overall, the analysis helps identify patterns and factors contributing to road accidents, enabling better traffic management and safety measures
