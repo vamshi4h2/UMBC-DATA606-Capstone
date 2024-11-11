@@ -132,7 +132,16 @@ The following columns are selected as features (predictors) to train the ML mode
 - **`sec_contributory_cause`**: The secondary cause contributing to the crash.
 - **`num_units`**: The number of units (vehicles or persons) involved in the crash.
 
-## 4. Exploratory Data Analysis(EDA)
+## 4. Methodology:
+### Anova test and Tukey’s test
+In order to analyze the variance in crash frequencies, we used ANOVA and Tukey's Honestly Significant Difference (HSD) tests to look at the temporal trends of traffic crashes in Chicago over a period of years. With a p-value close to zero and a very significant F-statistic of 1535.181, the ANOVA findings showed significant variations in the number of crashes between various years. This implies that the average annual crash rate fluctuates, underscoring the impact of changing circumstances throughout time.
+
+Tukey's HSD test was used to further analyze the data to find particular years, especially 2024, that significantly deviated from the rest. These differences may indicate abnormal trends or impacts resulting from outside influences like modifications to traffic laws, improvements to urban infrastructure, or noteworthy social events. These results highlight the need for continuous observation and focused interventions in years that are statistically distinct in order to improve road safety and successfully lower crash rates.
+
+### Chi2test
+A highly significant statistical link between collision types and key contributory reasons in traffic events was found by using the Chi-square test. The results showed a Chi-square statistic of 1,075,594.2335 with a p-value of almost zero. This implies that particular crash kinds are more likely to happen when certain contributing factors are present than would be predicted by chance alone. The research highlights the possibility for focused interventions and policy formulations that address common contributing factors to lower the incidence and severity of traffic crashes. The analysis is based on a contingency table with 663 degrees of freedom.
+
+## 5. Exploratory Data Analysis(EDA)
 ### 4.1 Data Cleansing and Preparation
 
 Data cleansing and preparation is a vital step in transforming raw data into a format suitable for analysis. In this project, we worked with traffic crash data from the Chicago Data Portal, starting by loading and inspecting the raw dataset to identify missing values and assess its structure. We renamed several columns to create more concise and meaningful labels and dropped irrelevant fields like `LOCATION` and `LANE_CNT` to reduce noise. To handle missing values, we filled certain columns, such as `intersection_related_i` and `hit_and_run_i`, with default values of "N" for non-occurrence. Where crash type was categorized as "NO INJURY / DRIVE AWAY," missing injury-related columns were filled with zeros, and rows with critical missing data were removed.
@@ -167,7 +176,7 @@ Next, feature engineering was performed by rounding the posted speed limit to th
 
 ![Crash Counts by Street Direction](./CrashByStreet.png)
 
-## 5. Machine Learning Models
+## 6. Machine Learning Models
 
 We used a number of classification techniques, such as SGD Classifier, ADA Boost, Gradient Boost, Random Forest, and Bagging. We also looked into using PCA and kernel approximation to improve the performance of the models.
 
@@ -182,14 +191,14 @@ We used a number of classification techniques, such as SGD Classifier, ADA Boost
 Out of all the methods that were examined, Gradient Boost had the greatest accuracy. 
 With an F1 score of 0.40, the Gradient Boost model obtained an accuracy score of 0.89 on the test set. Similar results are obtained for the model with an F1 score of 0.40 and a balanced accuracy of 0.63 on the validation set.
 
-## 5. Streamlit Deployment
+## 7. Streamlit Deployment
 
 Streamlit is an open-source Python library that enables you to create interactive web applications for machine learning, data science, and other tasks with minimal effort. It simplifies the process of building data-driven web apps by allowing you to write Python scripts that automatically transform into interactive web applications.
 
 ![image](https://github.com/user-attachments/assets/1cdfa7eb-4ba3-4799-a10f-bf76acfd25bf)
 
 
-## Conclusion:
+## 8. Conclusion:
 
 This project provides a detailed analysis of Chicago’s traffic crash data, identifying key temporal and spatial patterns to inform targeted safety measures. Findings reveal peak crash times, notably midday and late afternoons on Fridays, as well as accident hotspots across the city. Statistical tests confirmed significant correlations, and the Gradient Boost model achieved high predictive accuracy, supporting proactive crash management. These insights offer real-world applications for policymakers in urban planning and traffic safety, suggesting targeted interventions to reduce crashes. Ultimately, this data-driven approach aims to enhance road safety in Chicago, with broader applications for other cities facing similar challenges.
 
