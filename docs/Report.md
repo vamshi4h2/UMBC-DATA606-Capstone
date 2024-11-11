@@ -182,6 +182,12 @@ We used a number of classification techniques, such as SGD Classifier, ADA Boost
 Out of all the methods that were examined, Gradient Boost had the greatest accuracy. 
 With an F1 score of 0.40, the Gradient Boost model obtained an accuracy score of 0.89 on the test set. Similar results are obtained for the model with an F1 score of 0.40 and a balanced accuracy of 0.63 on the validation set.
 
+## 5. Streamlit Deployment
+
+Streamlit is an open-source Python library that enables you to create interactive web applications for machine learning, data science, and other tasks with minimal effort. It simplifies the process of building data-driven web apps by allowing you to write Python scripts that automatically transform into interactive web applications.
+
+![image](https://github.com/user-attachments/assets/1cdfa7eb-4ba3-4799-a10f-bf76acfd25bf)
+
 
 ## Conclusion:
 
