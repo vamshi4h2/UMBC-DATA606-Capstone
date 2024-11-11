@@ -167,8 +167,23 @@ Next, feature engineering was performed by rounding the posted speed limit to th
 
 ![Crash Counts by Street Direction](./CrashByStreet.png)
 
+## 5. Machine Learning Models
+
+We used a number of classification techniques, such as SGD Classifier, ADA Boost, Gradient Boost, Random Forest, and Bagging. We also looked into using PCA and kernel approximation to improve the performance of the models.
+
+| Model           | Accuracy | F1 Score | Recall | Precision | Balanced Accuracy | ROC AUC |
+|-----------------|----------|----------|--------|-----------|-------------------|---------|
+| SGD Classifier  | 74%      | 0.43     | 0.71   | 0.74      | 0.73              | 0.82    |
+| ADA Boost       | 80%      | 0.46     | 0.63   | 0.36      | 0.73              | 0.82    |
+| Gradient Boost  | 89%      | 0.40     | 0.28   | 0.71      | 0.63              | 0.82    |
+| Random Forest   | 81%      | 0.45     | 0.58   | 0.37      | 0.71              | 0.81    |
+| Bagging         | 84%      | 0.44     | 0.47   | 0.41      | 0.69              | 0.79    |
+
+Out of all the methods that were examined, Gradient Boost had the greatest accuracy. 
+With an F1 score of 0.40, the Gradient Boost model obtained an accuracy score of 0.89 on the test set. Similar results are obtained for the model with an F1 score of 0.40 and a balanced accuracy of 0.63 on the validation set.
+
 
 ## Conclusion:
 
-The exploratory data analysis (EDA) of the Chicago crash dataset provided valuable insights into crash patterns across various dimensions, such as time of day, weather, lighting conditions, and geographic location. Key findings reveal a distinct variation in crashes across different years and months, with crashes peaking during certain hours of the day, particularly in the morning and evening. Weekdays generally experienced a higher frequency of crashes compared to weekends, likely due to increased traffic volume. Weather and lighting conditions also played a role, with clear weather contributing to a higher number of crashes. Additionally, the geographical analysis highlighted crash density in specific areas, suggesting the need for targeted traffic interventions. Overall, the analysis helps identify patterns and factors contributing to road accidents, enabling better traffic management and safety measures
+This project provides a detailed analysis of Chicago’s traffic crash data, identifying key temporal and spatial patterns to inform targeted safety measures. Findings reveal peak crash times, notably midday and late afternoons on Fridays, as well as accident hotspots across the city. Statistical tests confirmed significant correlations, and the Gradient Boost model achieved high predictive accuracy, supporting proactive crash management. These insights offer real-world applications for policymakers in urban planning and traffic safety, suggesting targeted interventions to reduce crashes. Ultimately, this data-driven approach aims to enhance road safety in Chicago, with broader applications for other cities facing similar challenges.
 
