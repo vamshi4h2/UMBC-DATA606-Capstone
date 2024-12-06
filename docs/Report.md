@@ -20,7 +20,7 @@ Traffic accidents are a major public health and safety issue, especially in larg
 2. How do environmental factors (weather, lighting, road conditions) contribute to traffic accidents?
 3. What are the demographic correlations in traffic crashes, and how do human factors (e.g., driver behavior, alcohol involvement) influence accident severity?
 4. Can spatial analysis identify accident hotspots, and how do traffic volume and speed limits relate to crash rates?
-5. How can the findings support the creation of effective traffic safety programs and policy initiatives?
+5. How can the findings support the creation of effective traffic safety programs and policy initiatives.?
 
 
 
