@@ -5,7 +5,7 @@
 - Author: Vamshi Konapuram
 - GitHub : https://github.com/vamshi4h2
 - Linkedin : https://www.linkedin.com/in/vamshi-konapuram-2640b11a1/
-- Presentation : docs/Capstone.pptx
+- Presentation : [docs/Capstone.pptx](https://github.com/vamshi4h2/UMBC-DATA606-Capstone/blob/998996b2fb7165713c4635638f25b9065eff5f2b/docs/Capstone.pptx)
 - YouTube : https://youtu.be/c4tnohPq_Xk
 
 
